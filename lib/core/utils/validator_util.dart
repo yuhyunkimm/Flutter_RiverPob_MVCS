@@ -1,8 +1,8 @@
 import 'package:validators/validators.dart';
 
 Function validateUsername() {
-  //GetUtils.isEmail()
   return (String? value) {
+
     if (value!.isEmpty) {
       return "유저네임에 들어갈 수 없습니다.";
     } else if (!isAlphanumeric(value)) {
