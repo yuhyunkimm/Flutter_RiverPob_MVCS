@@ -1,7 +1,7 @@
 class ResponseDTO {
   final int? code;
   final String? msg;
-  String? tocken;
+  String? token;
   dynamic data; // JsonArray [], JsonObject {}
 
   ResponseDTO({
